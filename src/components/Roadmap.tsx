@@ -9,11 +9,11 @@ const Roadmap = () => {
       status: "complete",
       icon: CheckCircle2,
       items: [
-        "User-initiated test case generation",
-        "ADO work items integration",
-        "Outlook email integration",
-        "Automation readiness assessment",
-        "Access via Copilot"
+        "Requirements capture from Microsoft Teams",
+        "Manual test case generation in Azure DevOps",
+        "Playwright test automation using MCP",
+        "Integration with Copilot Studio",
+        "Automated test case creation from conversations"
       ]
     },
     {
@@ -21,11 +21,11 @@ const Roadmap = () => {
       status: "in-progress",
       icon: Circle,
       items: [
-        "Teams chat and meeting transcript support",
-        "Multi-work-item notifications for new requirements",
-        "AI Work Item Assistant (ADO) integration",
-        "Enhanced automation script generation",
-        "Improved risk and dependency analysis"
+        "Enhanced Teams meeting transcript analysis",
+        "Multi-work-item notifications for requirement changes",
+        "Improved Playwright test generation with MCP",
+        "Advanced test coverage analysis",
+        "Enhanced risk and dependency detection"
       ]
     },
     {

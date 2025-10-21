@@ -28,8 +28,8 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-muted-foreground leading-relaxed">
-              AI for Smarter Testing. Automatically generate detailed test cases from requirements, 
-              save thousands of hours annually, and drive $100M+ in value.
+              AI for Smarter Testing. Automatically generate manual test cases in Azure DevOps from Teams requirements, 
+              then create automated Playwright tests. Save thousands of hours annually and drive $100M+ in value.
             </p>
 
             <div className="flex flex-wrap gap-4">

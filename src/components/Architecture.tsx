@@ -25,24 +25,24 @@ const Architecture = () => {
                     User Interface
                   </text>
                   <text x="400" y="90" textAnchor="middle" fill="white" fontSize="14">
-                    Copilot / ADO Assistant
+                    Copilot Studio / ADO
                   </text>
 
                   {/* Integration Layer */}
                   <rect x="50" y="180" width="180" height="70" rx="8" fill="hsl(220 70% 55%)" />
                   <text x="140" y="210" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
-                    ADO Integration
+                    Teams Integration
                   </text>
                   <text x="140" y="235" textAnchor="middle" fill="white" fontSize="12">
-                    Work Items API
+                    Requirements API
                   </text>
 
                   <rect x="310" y="180" width="180" height="70" rx="8" fill="hsl(220 70% 55%)" />
                   <text x="400" y="210" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
-                    Outlook Integration
+                    Azure DevOps
                   </text>
                   <text x="400" y="235" textAnchor="middle" fill="white" fontSize="12">
-                    Email API
+                    Test Cases API
                   </text>
 
                   <rect x="570" y="180" width="180" height="70" rx="8" fill="hsl(220 70% 55%)" opacity="0.5" />
@@ -50,7 +50,7 @@ const Architecture = () => {
                     Future Sources
                   </text>
                   <text x="660" y="235" textAnchor="middle" fill="white" fontSize="12">
-                    Teams, SharePoint
+                    SharePoint, Figma
                   </text>
 
                   {/* AI Processing Core */}
@@ -68,18 +68,18 @@ const Architecture = () => {
                   {/* Output Layer */}
                   <rect x="150" y="470" width="200" height="70" rx="8" fill="hsl(142 71% 45%)" />
                   <text x="250" y="500" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
-                    Test Case Generator
+                    Manual Test Cases
                   </text>
                   <text x="250" y="520" textAnchor="middle" fill="white" fontSize="12">
-                    Detailed Cases & Steps
+                    Azure DevOps
                   </text>
 
                   <rect x="450" y="470" width="200" height="70" rx="8" fill="hsl(142 71% 45%)" />
                   <text x="550" y="500" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
-                    Automation Planner
+                    Playwright Tests
                   </text>
                   <text x="550" y="520" textAnchor="middle" fill="white" fontSize="12">
-                    Script Generation
+                    MCP Generation
                   </text>
 
                   {/* Arrows */}
@@ -113,9 +113,9 @@ const Architecture = () => {
                     User
                   </text>
 
-                  <rect x="250" y="30" width="100" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <rect x="230" y="30" width="140" height="60" rx="8" fill="hsl(220 70% 55%)" />
                   <text x="300" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="14">
-                    Copilot
+                    Copilot Studio
                   </text>
 
                   <rect x="450" y="30" width="100" height="60" rx="8" fill="hsl(280 85% 65%)" />
@@ -142,26 +142,26 @@ const Architecture = () => {
                   <text x="400" y="155" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">2. Trigger agent</text>
 
                   <path d="M 505 200 L 695 200" stroke="hsl(280 85% 65%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="600" y="195" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">3. Fetch ADO data</text>
+                  <text x="600" y="195" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">3. Fetch Teams data</text>
 
                   <path d="M 505 240 L 695 240" stroke="hsl(280 85% 65%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="600" y="235" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">4. Fetch email data</text>
+                  <text x="600" y="235" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">4. Analyze requirements</text>
 
                   <rect x="480" y="270" width="40" height="80" fill="hsl(280 85% 65%)" />
                   <text x="500" y="305" textAnchor="middle" fill="white" fontSize="11" fontWeight="bold">AI</text>
                   <text x="500" y="320" textAnchor="middle" fill="white" fontSize="10">Process</text>
 
                   <path d="M 495 370 L 305 370" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="400" y="365" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">5. Return test cases</text>
+                  <text x="400" y="365" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">5. Manual test cases</text>
 
                   <path d="M 295 410 L 105 410" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="200" y="405" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">6. Display results</text>
+                  <text x="200" y="405" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">6. Display in ADO</text>
 
                   <path d="M 105 450 L 295 450" stroke="hsl(262 83% 58%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="200" y="445" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">7. Review & edit</text>
+                  <text x="200" y="445" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">7. Trigger automation</text>
 
                   <path d="M 305 490 L 495 490" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="400" y="485" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">8. Export to ADO</text>
+                  <text x="400" y="485" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="12">8. Generate Playwright</text>
 
                   <defs>
                     <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">

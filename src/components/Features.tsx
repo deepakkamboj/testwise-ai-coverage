@@ -5,15 +5,15 @@ const Features = () => {
   const features = [
     {
       icon: Database,
-      title: "Multi-Source Extraction",
-      description: "Currently supports ADO and Outlook; Teams, SharePoint, and Figma integration planned",
+      title: "Teams Integration",
+      description: "Currently captures requirements from Microsoft Teams; SharePoint and Figma integration planned",
       color: "text-primary",
       bgColor: "bg-primary/10"
     },
     {
       icon: Sparkles,
-      title: "Automated Generation",
-      description: "Instantly creates detailed, traceable test cases and comprehensive test steps",
+      title: "Manual Test Generation",
+      description: "Instantly creates detailed manual test cases in Azure DevOps with comprehensive test steps",
       color: "text-secondary",
       bgColor: "bg-secondary/10"
     },
@@ -26,8 +26,8 @@ const Features = () => {
     },
     {
       icon: Settings,
-      title: "Automation Ready",
-      description: "Flags which test cases can be automated and recommends appropriate tools",
+      title: "Playwright Automation",
+      description: "Generates automated Playwright tests using MCP from manual test cases in Azure DevOps",
       color: "text-success",
       bgColor: "bg-success/10"
     },

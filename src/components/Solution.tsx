@@ -8,8 +8,9 @@ const Solution = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Our Solution</h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            TestWise automatically generates detailed test cases by analyzing requirements from ADO work items 
-            and Outlook emails using advanced NLP and ML, with Teams, SharePoint, and Figma integration on the roadmap.
+            TestWise automatically generates manual test cases in Azure DevOps by analyzing requirements from Microsoft Teams 
+            using advanced NLP and ML. Once manual test cases are created, we generate automated Playwright tests using MCP, 
+            with SharePoint and Figma integration on the roadmap.
           </p>
         </div>
 
@@ -75,7 +76,7 @@ const Solution = () => {
                   1
                 </div>
                 <p className="text-muted-foreground pt-1">
-                  <strong className="text-foreground">User Initiates:</strong> User selects a work item and triggers the TestWise agent through Copilot
+                  <strong className="text-foreground">User Initiates:</strong> User selects a work item and triggers the TestWise agent through Copilot Studio
                 </p>
               </div>
               <div className="flex items-start gap-4">
@@ -83,7 +84,7 @@ const Solution = () => {
                   2
                 </div>
                 <p className="text-muted-foreground pt-1">
-                  <strong className="text-foreground">AI Analysis:</strong> Agent scans ADO work items and Outlook emails to gather all relevant requirements and context
+                  <strong className="text-foreground">AI Analysis:</strong> Agent captures requirements from Microsoft Teams conversations and analyzes context
                 </p>
               </div>
               <div className="flex items-start gap-4">
@@ -91,7 +92,7 @@ const Solution = () => {
                   3
                 </div>
                 <p className="text-muted-foreground pt-1">
-                  <strong className="text-foreground">Generation:</strong> Agent generates detailed test cases with steps, flags automation candidates, and links to sources
+                  <strong className="text-foreground">Manual Test Creation:</strong> Agent generates detailed manual test cases in Azure DevOps with steps and traceability
                 </p>
               </div>
               <div className="flex items-start gap-4">
@@ -99,7 +100,7 @@ const Solution = () => {
                   4
                 </div>
                 <p className="text-muted-foreground pt-1">
-                  <strong className="text-foreground">Review & Export:</strong> User reviews, edits, and exports test cases as needed
+                  <strong className="text-foreground">Automation Generation:</strong> From manual test cases, generate automated Playwright tests using MCP
                 </p>
               </div>
             </div>

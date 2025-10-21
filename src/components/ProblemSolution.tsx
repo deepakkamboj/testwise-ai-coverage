@@ -26,7 +26,7 @@ const ProblemSolution = () => {
                 <div className="flex gap-3">
                   <span className="text-destructive font-bold">•</span>
                   <p className="text-muted-foreground">
-                    Requirements scattered across multiple tools (ADO, Outlook, Teams, SharePoint) make it difficult to maintain comprehensive coverage
+                    Requirements scattered across Teams, SharePoint, Figma, and other tools make it difficult to maintain comprehensive coverage
                   </p>
                 </div>
                 <div className="flex gap-3">

@@ -10,17 +10,17 @@ const Technology = () => {
     },
     {
       category: "Integration Platforms",
-      items: ["Azure DevOps API", "Microsoft Graph (Outlook)", "Microsoft 365 Copilot"],
+      items: ["Microsoft Teams API", "Azure DevOps API", "Copilot Studio", "Microsoft Graph"],
       color: "secondary"
     },
     {
-      category: "Planned Integrations",
-      items: ["Microsoft Teams", "SharePoint", "Figma", "Jira"],
+      category: "Test Automation",
+      items: ["Playwright", "MCP (Model Context Protocol)", "Azure DevOps Test Plans"],
       color: "accent"
     },
     {
-      category: "Development",
-      items: ["TypeScript", "React", "Azure Functions", "RESTful APIs"],
+      category: "Planned Integrations",
+      items: ["SharePoint", "Figma", "Jira"],
       color: "success"
     }
   ];
