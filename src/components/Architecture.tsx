@@ -125,80 +125,92 @@ const Architecture = () => {
             </CardHeader>
             <CardContent>
               <div className="bg-muted/50 rounded-lg p-8">
-                <svg viewBox="0 0 900 700" className="w-full h-auto">
+                <svg viewBox="0 0 1100 700" className="w-full h-auto">
                   {/* Actors/Components */}
-                  <rect x="30" y="30" width="90" height="60" rx="8" fill="hsl(262 83% 58%)" />
-                  <text x="75" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="13">
+                  <rect x="20" y="30" width="90" height="60" rx="8" fill="hsl(262 83% 58%)" />
+                  <text x="65" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="12">
                     User
                   </text>
 
-                  <rect x="180" y="30" width="120" height="60" rx="8" fill="hsl(220 70% 55%)" />
-                  <text x="240" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="12">
+                  <rect x="150" y="30" width="110" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <text x="205" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="11">
                     Copilot Studio
                   </text>
 
-                  <rect x="360" y="30" width="100" height="60" rx="8" fill="hsl(280 85% 65%)" />
-                  <text x="410" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="13">
+                  <rect x="300" y="30" width="90" height="60" rx="8" fill="hsl(280 85% 65%)" />
+                  <text x="345" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="12">
                     AI Agent
                   </text>
 
-                  <rect x="520" y="30" width="100" height="60" rx="8" fill="hsl(142 71% 45%)" />
-                  <text x="570" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="12">
+                  <rect x="430" y="30" width="100" height="60" rx="8" fill="hsl(142 71% 45%)" />
+                  <text x="480" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="11">
                     Azure DevOps
                   </text>
 
-                  <rect x="680" y="30" width="100" height="60" rx="8" fill="hsl(220 70% 55%)" />
-                  <text x="730" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="12">
-                    MCP + Pipeline
+                  <rect x="570" y="30" width="130" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <text x="635" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="11">
+                    ADO MCP
+                  </text>
+
+                  <rect x="740" y="30" width="130" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <text x="805" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="11">
+                    Playwright MCP
+                  </text>
+
+                  <rect x="910" y="30" width="140" height="60" rx="8" fill="hsl(280 85% 65%)" />
+                  <text x="980" y="60" textAnchor="middle" fill="white" fontWeight="bold" fontSize="11">
+                    Build Pipeline
                   </text>
 
                   {/* Lifelines */}
-                  <line x1="75" y1="90" x2="75" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
-                  <line x1="240" y1="90" x2="240" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
-                  <line x1="410" y1="90" x2="410" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
-                  <line x1="570" y1="90" x2="570" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
-                  <line x1="730" y1="90" x2="730" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="65" y1="90" x2="65" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="205" y1="90" x2="205" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="345" y1="90" x2="345" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="480" y1="90" x2="480" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="635" y1="90" x2="635" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="805" y1="90" x2="805" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
+                  <line x1="980" y1="90" x2="980" y2="660" stroke="hsl(240 10% 10%)" strokeWidth="2" strokeDasharray="5,5" />
 
                   {/* Messages */}
-                  <path d="M 80 120 L 235 120" stroke="hsl(262 83% 58%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="157" y="115" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">1. Select work item</text>
+                  <path d="M 70 120 L 200 120" stroke="hsl(262 83% 58%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="135" y="115" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">1. Select work item</text>
 
-                  <path d="M 245 155 L 405 155" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="325" y="150" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">2. Trigger agent</text>
+                  <path d="M 210 155 L 340 155" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="275" y="150" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">2. Trigger agent</text>
 
-                  <path d="M 415 190 L 565 190" stroke="hsl(280 85% 65%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="490" y="185" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">3. Fetch Teams data</text>
+                  <path d="M 350 190 L 475 190" stroke="hsl(280 85% 65%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="412" y="185" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">3. Fetch Teams data</text>
 
-                  <path d="M 565 225 L 415 225" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="490" y="220" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">4. Return requirements</text>
+                  <path d="M 475 225 L 350 225" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
+                  <text x="412" y="220" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">4. Return requirements</text>
 
-                  <rect x="390" y="250" width="40" height="80" fill="hsl(280 85% 65%)" />
-                  <text x="410" y="285" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">AI</text>
-                  <text x="410" y="300" textAnchor="middle" fill="white" fontSize="9">Process</text>
+                  <rect x="325" y="250" width="40" height="70" fill="hsl(280 85% 65%)" />
+                  <text x="345" y="280" textAnchor="middle" fill="white" fontSize="10" fontWeight="bold">AI</text>
+                  <text x="345" y="295" textAnchor="middle" fill="white" fontSize="9">Process</text>
 
-                  <path d="M 415 350 L 565 350" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="490" y="345" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">5. Create test cases</text>
+                  <path d="M 350 340 L 475 340" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
+                  <text x="412" y="335" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">5. Create test cases</text>
 
-                  <path d="M 565 385 L 235 385" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="400" y="380" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">6. Show in Copilot</text>
+                  <path d="M 475 375 L 210 375" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
+                  <text x="342" y="370" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">6. Show in Copilot</text>
 
-                  <path d="M 235 420 L 80 420" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
-                  <text x="157" y="415" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">7. Display tests</text>
+                  <path d="M 200 410 L 70 410" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowgreen)" />
+                  <text x="135" y="405" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">7. Display tests</text>
 
-                  <path d="M 80 460 L 235 460" stroke="hsl(262 83% 58%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="157" y="455" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">8. Trigger automation</text>
+                  <path d="M 70 450 L 200 450" stroke="hsl(262 83% 58%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="135" y="445" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">8. Trigger automation</text>
 
-                  <path d="M 245 495 L 565 495" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="405" y="490" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">9. Request automation</text>
+                  <path d="M 210 485 L 475 485" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="342" y="480" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">9. Request automation</text>
 
-                  <path d="M 575 530 L 725 530" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <text x="650" y="525" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="11">10. ADO MCP reads</text>
+                  <path d="M 485 520 L 630 520" stroke="hsl(142 71% 45%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="557" y="515" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">10. Read test cases</text>
 
-                  <path d="M 725 565 L 725 595" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
-                  <rect x="705" y="595" width="50" height="40" fill="hsl(220 70% 55%)" />
-                  <text x="730" y="610" textAnchor="middle" fill="white" fontSize="9">Playwright</text>
-                  <text x="730" y="622" textAnchor="middle" fill="white" fontSize="9">MCP +</text>
-                  <text x="730" y="634" textAnchor="middle" fill="white" fontSize="9">Pipeline</text>
+                  <path d="M 640 555 L 800 555" stroke="hsl(220 70% 55%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="720" y="550" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">11. Send to Playwright</text>
+
+                  <path d="M 810 590 L 975 590" stroke="hsl(280 85% 65%)" strokeWidth="3" fill="none" markerEnd="url(#arrowblue)" />
+                  <text x="892" y="585" textAnchor="middle" fill="hsl(240 10% 10%)" fontSize="10">12. Generate & execute</text>
 
                   <defs>
                     <marker id="arrowblue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
