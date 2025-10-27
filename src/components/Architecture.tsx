@@ -18,7 +18,7 @@ const Architecture = () => {
             </CardHeader>
             <CardContent>
               <div className="bg-muted/50 rounded-lg p-8">
-                <svg viewBox="0 0 800 600" className="w-full h-auto">
+                <svg viewBox="0 0 800 670" className="w-full h-auto">
                   {/* User Interface Layer */}
                   <rect x="250" y="30" width="300" height="80" rx="8" fill="hsl(262 83% 58%)" />
                   <text x="400" y="65" textAnchor="middle" fill="white" fontWeight="bold" fontSize="18">
@@ -66,20 +66,37 @@ const Architecture = () => {
                   </text>
 
                   {/* Output Layer */}
-                  <rect x="150" y="470" width="200" height="70" rx="8" fill="hsl(142 71% 45%)" />
-                  <text x="250" y="500" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
-                    Manual Test Cases
-                  </text>
-                  <text x="250" y="520" textAnchor="middle" fill="white" fontSize="12">
+                  <rect x="250" y="470" width="150" height="70" rx="8" fill="hsl(142 71% 45%)" />
+                  <text x="325" y="495" textAnchor="middle" fill="white" fontWeight="bold" fontSize="15">
                     Azure DevOps
                   </text>
+                  <text x="325" y="515" textAnchor="middle" fill="white" fontSize="12">
+                    Manual Test Cases
+                  </text>
 
-                  <rect x="450" y="470" width="200" height="70" rx="8" fill="hsl(142 71% 45%)" />
-                  <text x="550" y="500" textAnchor="middle" fill="white" fontWeight="bold" fontSize="16">
+                  {/* MCP Layer */}
+                  <rect x="170" y="580" width="140" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <text x="240" y="605" textAnchor="middle" fill="white" fontWeight="bold" fontSize="14">
+                    Azure DevOps
+                  </text>
+                  <text x="240" y="625" textAnchor="middle" fill="white" fontSize="11">
+                    MCP
+                  </text>
+
+                  <rect x="330" y="580" width="140" height="60" rx="8" fill="hsl(220 70% 55%)" />
+                  <text x="400" y="605" textAnchor="middle" fill="white" fontWeight="bold" fontSize="14">
+                    Playwright MCP
+                  </text>
+                  <text x="400" y="625" textAnchor="middle" fill="white" fontSize="11">
+                    + Environment
+                  </text>
+
+                  <rect x="490" y="580" width="140" height="60" rx="8" fill="hsl(280 85% 65%)" />
+                  <text x="560" y="605" textAnchor="middle" fill="white" fontWeight="bold" fontSize="14">
                     Playwright Tests
                   </text>
-                  <text x="550" y="520" textAnchor="middle" fill="white" fontSize="12">
-                    MCP Generation
+                  <text x="560" y="625" textAnchor="middle" fill="white" fontSize="11">
+                    Build Pipeline
                   </text>
 
                   {/* Arrows */}
@@ -87,8 +104,10 @@ const Architecture = () => {
                   <path d="M 140 250 L 300 310" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
                   <path d="M 400 250 L 400 310" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
                   <path d="M 660 250 L 500 310" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" strokeDasharray="5,5" opacity="0.5" />
-                  <path d="M 350 410 L 280 470" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
-                  <path d="M 450 410 L 520 470" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
+                  <path d="M 350 410 L 325 470" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
+                  <path d="M 325 540 L 240 580" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
+                  <path d="M 280 610 L 330 610" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
+                  <path d="M 470 610 L 490 610" stroke="hsl(240 10% 10%)" strokeWidth="3" fill="none" markerEnd="url(#arrowhead)" />
 
                   <defs>
                     <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">

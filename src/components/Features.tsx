@@ -5,31 +5,24 @@ const Features = () => {
   const features = [
     {
       icon: Database,
-      title: "Teams Integration",
-      description: "Currently captures requirements from Microsoft Teams; SharePoint and Figma integration planned",
+      title: "Tool Integrations",
+      description: "Currently captures requirements from Microsoft Teams, emails and SharePoint; Figma, Videos integration planned",
       color: "text-primary",
       bgColor: "bg-primary/10"
     },
     {
       icon: Sparkles,
-      title: "Manual Test Generation",
-      description: "Instantly creates detailed manual test cases in Azure DevOps with comprehensive test steps",
+      title: "Automatic Testcase Generation",
+      description: "Instantly creates detailed test cases in Azure DevOps with comprehensive test steps",
       color: "text-secondary",
       bgColor: "bg-secondary/10"
     },
     {
-      icon: GitBranch,
-      title: "Risk & Dependencies",
-      description: "Highlights dependencies and assesses risk level for each test case",
-      color: "text-accent",
-      bgColor: "bg-accent/10"
-    },
-    {
       icon: Settings,
       title: "Playwright Automation",
-      description: "Generates automated Playwright tests using MCP from manual test cases in Azure DevOps",
-      color: "text-success",
-      bgColor: "bg-success/10"
+      description: "Generates automated Playwright tests using MCP from test cases in Azure DevOps",
+      color: "text-accent",
+      bgColor: "bg-accent/10"
     },
     {
       icon: TrendingUp,
@@ -41,9 +34,16 @@ const Features = () => {
     {
       icon: Layout,
       title: "Intuitive Dashboard",
-      description: "View, edit, and export test cases; input requirements for instant suggestions",
+      description: "Track and monitor the progress of requirements into automatic test cases",
       color: "text-secondary",
       bgColor: "bg-secondary/10"
+    },
+    {
+      icon: GitBranch,
+      title: "Risk & Dependencies",
+      description: "Highlights dependencies and assesses risk level for each case",
+      color: "text-success",
+      bgColor: "bg-success/10"
     }
   ];
 
